@@ -1,0 +1,13 @@
+.blog{
+    text-align: left;
+
+    &__texto{
+        color: $nickel;
+        font-size: $font-medium;
+        font-weight: $fuente-principal-light;
+        line-height: 40px;
+    }
+    &__texto_span{
+        color: $ruddy-pink;
+    }
+}

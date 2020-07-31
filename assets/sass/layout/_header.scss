@@ -1,0 +1,18 @@
+.header{
+    background-image: url("../img/img_header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+
+    &__contenedor{
+        text-align: center;
+    }
+    &__texto{
+        color: $white;
+        font-family: $fuente-secundaria;
+        font-weight: $fuente-secundaria-black;
+        font-style: oblique;
+        font-size: $font-xxlarge;
+        line-height: 93px;
+    }
+}

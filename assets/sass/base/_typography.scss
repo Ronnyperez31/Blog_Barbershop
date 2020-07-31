@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,900&display=swap');
+
+//* Fuentes
+$roboto: 'Roboto', sans-serif;
+$roboto-light: 300;
+$roboto-regular: 400;
+
+$playfair: 'Playfair Display', serif;
+$playfair-regular: 400;
+$playfair-black: 900;
+
+//*Fuente principal
+$fuente-principal: $roboto;
+$fuente-principal-light: $roboto-light;
+$fuente-principal-regular: $roboto-regular;
+
+//*Fuente secundaria
+$fuente-secundaria: $playfair;
+$fuente-secundaria-regular: $playfair-regular;
+$fuente-secundaria-black: $playfair-black;
+
+//*Tamaños
+$font-small: 12px;
+$font-medium: 16px;
+$font-large: 18px;
+$font-xlarge: 30px;
+$font-xxlarge: 70px;

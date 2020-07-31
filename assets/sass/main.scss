@@ -1,0 +1,22 @@
+//* Abstracts
+@import "abstracts/variables";
+
+//* Vendor
+@import "vendors/bootstrap_4.5.0/bootstrap";
+
+//* Base
+@import "base/reset";
+@import "base/typography";
+
+//* Components
+@import "components/button";
+
+//* Layouts
+@import "layout/body";
+@import "layout/navbar";
+@import "layout/header";
+@import "layout/footer";
+
+//*pages
+@import "pages/blog";
+@import "pages/naomi";

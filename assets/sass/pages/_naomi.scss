@@ -1,0 +1,37 @@
+.naomi{
+    background-color: $gris-claro;
+
+    &__img{
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 50%;
+    }
+    &__titulo{
+        color: $eerie-black;
+        font-family: $fuente-secundaria;
+        font-size: $font-xlarge;
+        font-weight: $fuente-secundaria-black;
+        font-style: oblique;
+    }
+    &__datos{
+        color: $spanish-pink;
+        font-size: $font-large;
+        font-weight: $fuente-principal-regular;
+        line-height: 25px;
+    }
+    &__texto{
+        color: $nickel;
+        font-size: $font-medium;
+        font-weight: $fuente-principal-light;
+        line-height: 40px;
+    }
+}
+.lista{
+    background-color: $platinum;
+    &__item{
+        color: $eerie-black;
+    }
+    &__active{
+        background-color: $nickel;
+    }
+}
